@@ -14,10 +14,6 @@ h1, h2, h3 {
   font-weight: 600; /* SemiBold for headings */
 }
 
-strong {
-  font-weight: 700; /* Bold for emphasis */
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -36,21 +32,26 @@ header::after {
   border-bottom: 1px solid gray;
 }
 
-ul {
+.site-branding {
+  font-size: 2rem;
+}
+
+.header-list {
   display: flex;
-  gap: 18px;
+  gap: 1.125rem;
   list-style: none;
-  font-size: 16px;
   margin: 0;
   padding: 0;
 }
 
-a {
+.header-nav-item {
   text-decoration: none;
   color: black;
+  font-weight: 450;
+  font-size: 1rem;
 }
 
-a:hover {
+.header-nav-item:hover {
   text-decoration: underline;
 }
 
@@ -59,5 +60,14 @@ a:hover {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+  .site-branding {
+    font-size: 1.3rem;
+  }
+  .header-list {
+    gap: 0.625rem;
+  }
+  .header-nav-item {
+    font-size: 0.8rem;
+  }
 }
