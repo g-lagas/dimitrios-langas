@@ -24,7 +24,6 @@ header {
   align-items: center;
   padding: 2vh 7vw 2vh 7vw;
   position: relative;
-  flex-wrap: wrap;
 }
 
 header::after {
