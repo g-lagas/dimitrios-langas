@@ -44,7 +44,7 @@ header::after {
 
 .site-branding {
   display: inline-block;
-  font-size: 1.1rem;
+  font-size: 1rem;
   align-self: center;
 }
 
@@ -66,8 +66,6 @@ header::after {
 .header-nav-item:hover {
   text-decoration: underline;
 }
-
-
 
 @media (min-width: 768px) {
   .site-branding {
