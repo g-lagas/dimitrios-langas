@@ -23,7 +23,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2vh 7vw 2vh 7vw;
   position: relative;
 }
 
