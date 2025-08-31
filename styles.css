@@ -44,7 +44,7 @@ header::after {
 
 .site-branding {
   display: inline-block;
-  font-size: 0.9rem;
+  font-size: 1rem;
   align-self: center;
 }
 
@@ -52,8 +52,6 @@ header::after {
   display: flex;
   gap: 0.5rem;
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .header-nav-item {
@@ -68,17 +66,18 @@ header::after {
 }
 
 
-@media (min-width: 400px) {
+@media (min-width: 576px) {
   .site-branding {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   .header-nav {
-    gap: 0.625rem;
+    gap: 1rem;
   }
   .header-nav-item {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }
+
 
 @media (min-width: 768px) {
   .site-branding {
